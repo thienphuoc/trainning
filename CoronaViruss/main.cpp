@@ -21,8 +21,8 @@ int main() {
 	//const int k_medicineResistance = 10;
 
 	//tesst 5 + 6 = 7
-	const int k_medicineResistance = 160;
-	while (p.getState() == 1)
+	const int k_medicineResistance = 100;
+	while (p.getState() == 1 && p.getVirutListSize() != 0)
 	{
 		p.takeMedicine(k_medicineResistance);
 	}

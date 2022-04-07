@@ -17,7 +17,7 @@ public:
 	int getResistance();
 
 	void addVirutList(CoronaVirus* virut);
-	void getVirutList();
+	int getVirutListSize();
 
 	void setState(State state);
 	State getState();

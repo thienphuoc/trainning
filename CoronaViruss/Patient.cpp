@@ -30,6 +30,9 @@ State Patient::getState() {
 	return m_state;
 	log("Patient getM_state()\n");
 }
+int Patient::getVirutListSize() {
+	return m_virutList.size();
+}
 //end get and set data
 
 //function
@@ -92,6 +95,7 @@ void Patient::doStart() {
 	//test 7
 	m_state = ALIVE;
 	const int k_virusNum = 5;
+
 	for (size_t i = 0; i < k_virusNum; i++)
 	{
 		CoronaVirus* virus = new AlphaCoronavirus();
@@ -149,6 +153,7 @@ void Patient::takeMedicine(int i_medicineResistance) {
 	cout << "takeMedicine|m_virutList.size() = " << m_virutList.size() << endl;
 	
 	vector<CoronaVirus*> newList;
+	vector<CoronaVirus*> deleteList;
 	for (auto i : m_virutList)
 	{
 		//i_medicineResistance = randomNumber(1, 60);
@@ -159,10 +164,14 @@ void Patient::takeMedicine(int i_medicineResistance) {
 			newList.insert(newList.end(),newCorona.begin(),newCorona.end());
 		}
 		else {
-			i->setResistance(0);
+			/*i->setResistance(0);*/
+			deleteList.push_back(i);
 		}
 	}
-	
+	for (auto i : deleteList)
+	{
+		m_virutList.erase(find(m_virutList.begin(), m_virutList.end(), i));
+	}
 	for (auto i : newList)
 	{
 		m_virutList.push_back(i);
