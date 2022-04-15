@@ -1,0 +1,39 @@
+<Solution>
+  <PropertyGroup Name="CoCosStudio" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Project Name="MainMenu.csd" Type="Layer" />
+          <Project Name="About.csd" Type="Layer" />
+          <Project Name="Rank.csd" Type="Layer" />
+          <Project Name="GameOver.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="arial.ttf" />
+          <TTF Name="Marker Felt.ttf" />
+        </Folder>
+        <Folder Name="images">
+          <Folder Name="leaderboard">
+            <Image Name="avatar.png" />
+            <Image Name="Capture.PNG" />
+            <Image Name="item_bg.png" />
+            <Image Name="leader_board_bg.png" />
+            <Image Name="list_view_bg.png" />
+          </Folder>
+          <Image Name="about_button.png" />
+          <Image Name="background.png" />
+          <Image Name="bird.png" />
+          <Image Name="exit_button.png" />
+          <Image Name="leader_board_button.png" />
+          <Image Name="play_button.png" />
+          <Image Name="pressed_settings_button.png" />
+          <Image Name="settings_button.png" />
+          <Image Name="undo.png" />
+          <Image Name="reload.png" />
+          <Image Name="menu.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
