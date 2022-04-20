@@ -1,0 +1,43 @@
+<Solution>
+  <PropertyGroup Name="NewCocosProject" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Project Name="mainmenu.csd" Type="Layer" />
+          <Project Name="gamescene.csd" Type="Layer" />
+          <Project Name="SplashScene.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="Resources">
+          <Folder Name="fonts">
+            <TTF Name="arial.ttf" />
+            <TTF Name="Marker Felt.ttf" />
+          </Folder>
+          <Folder Name="images">
+            <Image Name="background1.jpg" />
+            <Image Name="circle (1).png" />
+            <Image Name="circle.png" />
+            <Image Name="fast-forward-button.png" />
+            <File Name="Minion5.webp" />
+            <Image Name="pause.png" />
+            <Image Name="play (1).png" />
+            <Image Name="play.png" />
+            <Image Name="play-button.png" />
+            <Image Name="power-button.png" />
+            <Image Name="square (1).png" />
+            <Image Name="square (2).png" />
+            <Image Name="square.png" />
+            <Image Name="stop-button.png" />
+            <Image Name="power-on.png" />
+            <Image Name="power-button (1).png" />
+            <Image Name="no-background.png" />
+            <Image Name="background.jpg" />
+            <Image Name="alphabet.png" />
+            <Image Name="cancel.png" />
+            <Image Name="pause-button.png" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
