@@ -1,0 +1,60 @@
+<Solution>
+  <PropertyGroup Name="pokemonCocosStudio" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="layer">
+          <Project Name="game-scene.csd" Type="Layer" />
+          <Project Name="main-menu.csd" Type="Layer" />
+          <Project Name="splash-scene.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="Resources">
+          <Folder Name="fonts">
+            <Folder Name="zip">
+              <File Name="alex-brush.zip" />
+              <File Name="allura.zip" />
+              <File Name="ariana-violeta-font.zip" />
+              <File Name="dancing-script-ot.zip" />
+              <File Name="FFF-Tusj.zip" />
+              <File Name="kaushan-script.zip" />
+              <File Name="league-spartan.zip" />
+              <File Name="SeasideResortNF.zip" />
+              <File Name="short-baby-font.zip" />
+              <File Name="sofia.zip" />
+              <File Name="Windsong.zip" />
+            </Folder>
+            <TTF Name="AlexBrush-Regular.ttf" />
+            <TTF Name="arial.ttf" />
+            <TTF Name="ArianaVioleta-dz2K.ttf" />
+            <TTF Name="FFF_Tusj.ttf" />
+            <TTF Name="Marker Felt.ttf" />
+            <TTF Name="SEASRN__.ttf" />
+            <TTF Name="ShortBaby-Mg2w.ttf" />
+            <TTF Name="Windsong.ttf" />
+          </Folder>
+          <Folder Name="images">
+            <Image Name="alter.png" />
+            <Image Name="home.png" />
+            <Image Name="loading.png" />
+            <Image Name="logo.png" />
+            <Image Name="loudspeaker.png" />
+            <Image Name="menuBackground.jpg" />
+            <Image Name="no-background.png" />
+            <Image Name="play (1).png" />
+            <Image Name="play.png" />
+            <Image Name="power-button (1).png" />
+            <Image Name="power-on.png" />
+            <Image Name="reloading.png" />
+            <Image Name="white-background.png" />
+            <Image Name="pauseOrange.png" />
+            <Image Name="playOrange.png" />
+            <Image Name="borderOrange.png" />
+            <Image Name="button.png" />
+            <Image Name="pikachu-splash-scene.jpg" />
+            <Image Name="ProgressBar.png" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
